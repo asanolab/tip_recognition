@@ -36,7 +36,7 @@ python train.py
 It will plot figures of metrics and output metrics as csv.
 
 # Test
-Please change the dir of images to be tested in `test.py` according to your real dir.
+Currently please change the dir of images to be tested in `test.py` according to your real dir.
 
 ```
 cd image_classification_CNN

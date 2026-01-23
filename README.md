@@ -4,7 +4,9 @@ This program uses a lightweight CNN to classify if the region in the tip rack be
 The accuracy is almost 100%.
 
 # Dataset Direction
-The dataset should be organized as follows:  
+The dataset should be organized as follows: 
+
+```
 |--tip_recognition    
   |--image_classification_CNN  
   |  |--train.py  
@@ -22,10 +24,14 @@ The dataset should be organized as follows:
   |  |  |--test     
   |  |  |  |--hole   
   |  |  |  |--tip   
+```
 
 # Train
-  cd image_classification_CNN
-  python train.py
+
+```
+cd image_classification_CNN
+python train.py
+```
 
 It will plot figures of metrics and output metrics as csv.
 

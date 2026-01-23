@@ -4,25 +4,24 @@ This program uses a lightweight CNN to classify if the region in the tip rack be
 The accuracy is almost 100%.
 
 # Dataset Direction
-The dataset should be organized as follows:
-|--tip_recognition
-  |--image_classification_CNN
-  |  |--train.py
-  |  |--test.py
-  |  |--dataset
-  |  |  |--train
-  |  |  |  |--hole
-  |  |  |  |  |--iamge_hole_id.jpg
-  |  |  |  |  |--
-  |  |  |  |--tip
-  |  |  |  |  |--image_tip_id.jpg
-  |  |  |--val
-  |  |  |  |--hole
-  |  |  |  |--tip
-  |  |  |--test
-  |  |  |  |--hole
-  |  |  |  |--tip
-
+The dataset should be organized as follows:  
+|--tip_recognition    
+  |--image_classification_CNN  
+  |  |--train.py  
+  |  |--test.py   
+  |  |--dataset   
+  |  |  |--train   
+  |  |  |  |--hole   
+  |  |  |  |  |--iamge_hole_id.jpg   
+  |  |  |  |  |--   
+  |  |  |  |--tip   
+  |  |  |  |  |--image_tip_id.jpg   
+  |  |  |--val     
+  |  |  |  |--hole   
+  |  |  |  |--tip   
+  |  |  |--test     
+  |  |  |  |--hole   
+  |  |  |  |--tip   
 
 # Train
   cd image_classification_CNN
